@@ -18,6 +18,9 @@ const UserSchema  = ({
         type: String,
         default: Date.now
     },
+    gravatar:{
+        type:String
+    }
 });
 
 
